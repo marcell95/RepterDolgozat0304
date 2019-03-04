@@ -30,9 +30,9 @@ namespace ClassLibrary1
 
             var j = new Jarat(jaratszam, repterhonnan, repterhova, indulas, keses);
 
-            foreach (var j in Jaratok)
+            foreach (var jj in Jaratok)
             {
-                if (jaratszam.Equals(j.Jaratszam))
+                if (jaratszam.Equals(jj.Jaratszam))
                 {
                     throw new VanIlyenJaratException(jaratszam);
                 }
